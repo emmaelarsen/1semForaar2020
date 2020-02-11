@@ -1,3 +1,50 @@
 /**
  * fil: css/style.css
  **/
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+
+Body {
+    background-color: beige;/* baggrunds farve */ 
+    color:darkslategrey; /* tekst farve */
+    background-image: url(../images/baggrund_mur.jpg); /* baggrunds image */
+    background-size: cover; 
+}
+
+p{
+    color:darkred;
+    background-color: beige;
+    width: 33%;
+    font-size: 110%;
+    
+    /* her bruges en google font, der hedder Lacquer */ 
+    font-family:'Caveat', sans-serif;
+
+padding:24px;
+}
+
+
+/* her er en id */
+
+#a {
+    position:absolute;
+    top: 500px;
+    Left: 337px;
+    color:darkred;
+}
+
+/* her er en class */
+.b {
+    color:darkred;
+   
+}
+
+
+header { 
+    color: black;
+    font-family: 'Lacquer', sans-serif;
+}
+
